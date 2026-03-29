@@ -31,10 +31,10 @@ export default function Register() {
                 </Box>
                 <Stack sx={{ alignItems: 'center', justifyContent: 'center', gap: 1 }}>
                   <Typography gutterBottom variant={downMD ? 'h3' : 'h2'} sx={{ color: 'secondary.main', mb: 0 }}>
-                    Sign up
+                    회원가입
                   </Typography>
                   <Typography variant="caption" sx={{ fontSize: '16px', textAlign: { xs: 'center', md: 'inherit' } }}>
-                    Enter your details to continue
+                    정보를 입력하여 계속 진행해주세요
                   </Typography>
                 </Stack>
                 <Box>
@@ -43,7 +43,7 @@ export default function Register() {
                 <Divider sx={{ width: 1 }} />
                 <Stack sx={{ alignItems: 'center' }}>
                   <Typography component={Link} to="/pages/login" variant="subtitle1" sx={{ textDecoration: 'none' }}>
-                    Already have an account?
+                    이미 계정이 있으신가요?
                   </Typography>
                 </Stack>
               </Stack>

@@ -1,0 +1,205 @@
+export const executives = [
+  { id: 1, memberId: 201, memberName: '이한수', company: '한수건설(주)', position: '명예회장', termStart: '2020-01-01', termEnd: '2026-12-31', status: '현직', phone: '010-1000-0001' },
+  { id: 2, memberId: 202, memberName: '김대현', company: '(주)대현물산', position: '회장', termStart: '2025-01-01', termEnd: '2026-12-31', status: '현직', phone: '010-1000-0002' },
+  { id: 3, memberId: 203, memberName: '박영수', company: '영수테크(주)', position: '수석부회장', termStart: '2025-01-01', termEnd: '2026-12-31', status: '현직', phone: '010-1000-0003' },
+  { id: 4, memberId: 204, memberName: '정민철', company: '(주)민철에너지', position: '부회장', termStart: '2025-01-01', termEnd: '2026-12-31', status: '현직', phone: '010-1000-0004' },
+  { id: 5, memberId: 205, memberName: '최상호', company: '상호파이낸스(주)', position: '부회장', termStart: '2025-01-01', termEnd: '2026-12-31', status: '현직', phone: '010-1000-0005' },
+  { id: 6, memberId: 206, memberName: '강지훈', company: '(주)지훈아이티', position: '이사', termStart: '2025-01-01', termEnd: '2026-12-31', status: '현직', phone: '010-1000-0006' },
+  { id: 7, memberId: 207, memberName: '윤서영', company: '서영바이오(주)', position: '이사', termStart: '2025-01-01', termEnd: '2026-12-31', status: '현직', phone: '010-1000-0007' },
+  { id: 8, memberId: 208, memberName: '오태식', company: '(주)태식회계법인', position: '감사', termStart: '2025-01-01', termEnd: '2026-12-31', status: '현직', phone: '010-1000-0008' },
+]
+
+export const executiveHistory = [
+  { id: 9, memberId: 301, memberName: '송기범', company: '기범종합상사(주)', position: '회장', termStart: '2023-01-01', termEnd: '2024-12-31', status: '퇴임', phone: '010-2000-0001' },
+  { id: 10, memberId: 302, memberName: '한우진', company: '(주)우진로지스틱스', position: '수석부회장', termStart: '2023-01-01', termEnd: '2024-12-31', status: '퇴임', phone: '010-2000-0002' },
+  { id: 11, memberId: 303, memberName: '임채원', company: '채원제약(주)', position: '부회장', termStart: '2023-01-01', termEnd: '2024-12-31', status: '퇴임', phone: '010-2000-0003' },
+  { id: 12, memberId: 304, memberName: '노승환', company: '(주)승환엔지니어링', position: '이사', termStart: '2023-01-01', termEnd: '2024-12-31', status: '퇴임', phone: '010-2000-0004' },
+  { id: 13, memberId: 305, memberName: '권혜정', company: '혜정컨설팅(주)', position: '이사', termStart: '2023-01-01', termEnd: '2024-12-31', status: '퇴임', phone: '010-2000-0005' },
+  { id: 14, memberId: 306, memberName: '유병호', company: '(주)병호세무법인', position: '감사', termStart: '2023-01-01', termEnd: '2024-12-31', status: '퇴임', phone: '010-2000-0006' },
+]
+
+export const committeeDivisions = [
+  {
+    id: 1,
+    name: '기획분과',
+    chairId: 401,
+    chairName: '김태우',
+    members: [
+      { memberId: 401, memberName: '김태우' },
+      { memberId: 402, memberName: '이정은' },
+      { memberId: 403, memberName: '박준혁' },
+      { memberId: 404, memberName: '신미래' },
+    ],
+  },
+  {
+    id: 2,
+    name: '교육분과',
+    chairId: 405,
+    chairName: '정하늘',
+    members: [
+      { memberId: 405, memberName: '정하늘' },
+      { memberId: 406, memberName: '최윤성' },
+      { memberId: 407, memberName: '강보라' },
+      { memberId: 408, memberName: '윤동현' },
+    ],
+  },
+  {
+    id: 3,
+    name: '친목분과',
+    chairId: 409,
+    chairName: '서민지',
+    members: [
+      { memberId: 409, memberName: '서민지' },
+      { memberId: 410, memberName: '한도윤' },
+      { memberId: 411, memberName: '배성진' },
+      { memberId: 412, memberName: '류가영' },
+    ],
+  },
+  {
+    id: 4,
+    name: '홍보분과',
+    chairId: 413,
+    chairName: '오현우',
+    members: [
+      { memberId: 413, memberName: '오현우' },
+      { memberId: 414, memberName: '문예슬' },
+      { memberId: 415, memberName: '나영호' },
+      { memberId: 416, memberName: '고서윤' },
+    ],
+  },
+]
+
+export const committeeMembers = [
+  // 기획분과
+  { id: 1, divisionId: 1, memberId: 401, memberName: '김태우', role: '분과장' },
+  { id: 2, divisionId: 1, memberId: 402, memberName: '이정은', role: '위원' },
+  { id: 3, divisionId: 1, memberId: 403, memberName: '박준혁', role: '위원' },
+  { id: 4, divisionId: 1, memberId: 404, memberName: '신미래', role: '위원' },
+  // 교육분과
+  { id: 5, divisionId: 2, memberId: 405, memberName: '정하늘', role: '분과장' },
+  { id: 6, divisionId: 2, memberId: 406, memberName: '최윤성', role: '위원' },
+  { id: 7, divisionId: 2, memberId: 407, memberName: '강보라', role: '위원' },
+  { id: 8, divisionId: 2, memberId: 408, memberName: '윤동현', role: '위원' },
+  // 친목분과
+  { id: 9, divisionId: 3, memberId: 409, memberName: '서민지', role: '분과장' },
+  { id: 10, divisionId: 3, memberId: 410, memberName: '한도윤', role: '위원' },
+  { id: 11, divisionId: 3, memberId: 411, memberName: '배성진', role: '위원' },
+  { id: 12, divisionId: 3, memberId: 412, memberName: '류가영', role: '위원' },
+  // 홍보분과
+  { id: 13, divisionId: 4, memberId: 413, memberName: '오현우', role: '분과장' },
+  { id: 14, divisionId: 4, memberId: 414, memberName: '문예슬', role: '위원' },
+  { id: 15, divisionId: 4, memberId: 415, memberName: '나영호', role: '위원' },
+  { id: 16, divisionId: 4, memberId: 416, memberName: '고서윤', role: '위원' },
+]
+
+export const meetingMinutes = [
+  {
+    id: 1,
+    divisionId: 1,
+    date: '2026-01-15',
+    agenda: '2026년 상반기 사업계획 수립',
+    result: '상반기 주요 행사 일정 확정 및 예산 배분안 합의. 워크숍(4월), 해외연수(6월), 체육대회(10월) 일정 승인.',
+    attendeeCount: 4,
+    attachments: ['2026_상반기_사업계획.pdf'],
+  },
+  {
+    id: 2,
+    divisionId: 2,
+    date: '2026-02-10',
+    agenda: '교육 프로그램 커리큘럼 검토',
+    result: '리더십 워크숍 커리큘럼 최종 확정. 외부 강사 3인 후보 선정 및 섭외 진행 결정.',
+    attendeeCount: 3,
+    attachments: ['교육_커리큘럼_초안.docx'],
+  },
+  {
+    id: 3,
+    divisionId: 3,
+    date: '2026-02-20',
+    agenda: '동호회 활성화 방안 논의',
+    result: '신규 동호회(요리회) 설립 검토. 기존 동호회 지원금 인상안(월 10만원→15만원) 의결.',
+    attendeeCount: 4,
+    attachments: [],
+  },
+  {
+    id: 4,
+    divisionId: 4,
+    date: '2026-03-05',
+    agenda: '홈페이지 리뉴얼 및 홍보 전략',
+    result: '홈페이지 디자인 시안 3건 중 B안 채택. SNS 홍보 채널(인스타그램) 신규 개설 승인. 분기별 뉴스레터 발행 결정.',
+    attendeeCount: 4,
+    attachments: ['홈페이지_디자인_시안B.pdf', '홍보전략_보고서.pptx'],
+  },
+]
+
+export const executiveBoard = [
+  {
+    id: 1,
+    cohortId: 25,
+    role: '총무',
+    memberId: 501,
+    memberName: '김현준',
+    phone: '010-3000-0001',
+    responsibilities: '회무 총괄, 회의 소집 및 진행, 회원 관리, 대외 협력',
+    handoverMemo: '매월 첫째 주 월요일에 임원진 정기회의를 소집합니다. 회의록은 공유 드라이브에 업로드해 주세요.',
+  },
+  {
+    id: 2,
+    cohortId: 25,
+    role: '재무',
+    memberId: 502,
+    memberName: '이보람',
+    phone: '010-3000-0002',
+    responsibilities: '회비 징수 및 관리, 예산 편성, 결산 보고, 지출 승인',
+    handoverMemo: '회비 납부 현황은 매월 15일까지 정리하여 회장단에 보고합니다. 미납자에게는 개별 연락 바랍니다.',
+  },
+  {
+    id: 3,
+    cohortId: 25,
+    role: '교육',
+    memberId: 503,
+    memberName: '박세진',
+    phone: '010-3000-0003',
+    responsibilities: '교육 프로그램 기획 및 운영, 강사 섭외, 교육 자료 관리',
+    handoverMemo: '외부 강사 풀은 공유 문서에 정리되어 있습니다. 강사료 기준은 2시간 기준 50만원입니다.',
+  },
+  {
+    id: 4,
+    cohortId: 25,
+    role: '홍보',
+    memberId: 504,
+    memberName: '정다은',
+    phone: '010-3000-0004',
+    responsibilities: '홈페이지 관리, SNS 운영, 행사 홍보, 뉴스레터 발행',
+    handoverMemo: '홈페이지 관리자 계정 정보는 인수인계 문서를 참고해 주세요. 뉴스레터는 분기별로 발행합니다.',
+  },
+  {
+    id: 5,
+    cohortId: 25,
+    role: '섭외',
+    memberId: 505,
+    memberName: '최준영',
+    phone: '010-3000-0005',
+    responsibilities: '외부 기관 협력, 후원사 관리, 행사장 섭외, 협찬 유치',
+    handoverMemo: '주요 협력 업체 연락처는 별도 파일로 관리 중입니다. 행사장 예약은 최소 2개월 전에 진행해 주세요.',
+  },
+  {
+    id: 6,
+    cohortId: 25,
+    role: '행사',
+    memberId: 506,
+    memberName: '강수빈',
+    phone: '010-3000-0006',
+    responsibilities: '정기 행사 기획 및 진행, 동호회 활동 지원, 체육대회 운영',
+    handoverMemo: '연간 행사 일정표는 1월 중으로 확정하여 전 회원에게 공지합니다. 행사 체크리스트 템플릿을 활용하세요.',
+  },
+  {
+    id: 7,
+    cohortId: 25,
+    role: '복지',
+    memberId: 507,
+    memberName: '윤혜진',
+    phone: '010-3000-0007',
+    responsibilities: '경조사 관리, 회원 복지 프로그램 운영, 상조회 관리',
+    handoverMemo: '경조사 발생 시 즉시 단체 채팅방에 공지하고, 화환 또는 부조금을 전달합니다. 기준 금액은 5만원입니다.',
+  },
+]

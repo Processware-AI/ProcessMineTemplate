@@ -33,10 +33,10 @@ export default function Login() {
                 </Box>
                 <Stack sx={{ alignItems: 'center', justifyContent: 'center', gap: 1 }}>
                   <Typography variant={downMD ? 'h3' : 'h2'} sx={{ color: 'secondary.main' }}>
-                    Hi, Welcome Back
+                    안녕하세요, 다시 오신 것을 환영합니다
                   </Typography>
                   <Typography variant="caption" sx={{ fontSize: '16px', textAlign: { xs: 'center', md: 'inherit' } }}>
-                    Enter your credentials to continue
+                    로그인 정보를 입력해주세요
                   </Typography>
                 </Stack>
                 <Box sx={{ width: 1 }}>
@@ -45,7 +45,7 @@ export default function Login() {
                 <Divider sx={{ width: 1 }} />
                 <Stack sx={{ alignItems: 'center' }}>
                   <Typography component={Link} to="/pages/register" variant="subtitle1" sx={{ textDecoration: 'none' }}>
-                    Don&apos;t have an account?
+                    계정이 없으신가요?
                   </Typography>
                 </Stack>
               </Stack>
